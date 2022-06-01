@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Indie+Flower&family=Josefin+Sans:wght@600&family=Montserrat:wght@600&family=Oswald:wght@600&family=Teko:wght@600&family=Ubuntu+Mono:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Comfortaa', cursive;
+}
+.padre {
+    display: flex;
+    flex-direction: column;
+}
+    
