@@ -5,18 +5,25 @@
 }
 body {
     font-family: 'Comfortaa', cursive;
+    font-size: 20px;
     width: 90vw;
     margin: 0 auto;
 }
 form {
     width: 80vw;
-    background-color: darkcyan;
+    background-color: crimson;
     display: flex;
     flex-direction: column;
     padding: 20px;
 }
-.btn{
+.btn {
+    font-size: 20px;
+    background-color: cornflowerblue;
     margin-top: 10px;
+
+}
+.btn:hover {
+    background-color: gold;
 }
 .form-control {
     margin-bottom: 15px;
