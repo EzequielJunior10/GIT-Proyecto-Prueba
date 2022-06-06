@@ -9,17 +9,22 @@ body {
     width: 90vw;
     margin: 0 auto;
 }
+h1 {
+    text-align: center;
+
+}
 form {
-    width: 80vw;
-    background-color: crimson;
     display: flex;
     flex-direction: column;
+    width: 80vh;
+    background-color: crimson;
     padding: 20px;
 }
 .btn {
     font-size: 20px;
     background-color: cornflowerblue;
     margin-top: 10px;
+    border-radius: 5px;
 
 }
 .btn:hover {
@@ -27,5 +32,6 @@ form {
 }
 .form-control {
     margin-bottom: 15px;
+    border-radius: 5px;
 }
     
